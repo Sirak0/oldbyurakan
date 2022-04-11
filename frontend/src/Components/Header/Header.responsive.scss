@@ -1,0 +1,40 @@
+
+@media screen and (max-width:1000px){
+    .list-div{
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        height: 250%;
+        width: 100%;
+        background-color: chartreuse;
+        display: none;
+        
+        
+        
+        .link{
+            height: 25%;
+            width: 100%;
+            color: black;
+           
+            &:hover{
+                color: white;
+                background-color: black;
+                border-radius: 7px;
+                width: 100%;
+                font-weight: 900;
+            }
+        }
+    }
+    
+    .menu-div{
+        
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+    
+    

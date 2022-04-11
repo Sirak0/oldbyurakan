@@ -1,0 +1,115 @@
+.contacts{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.contacts-content1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.contacts-content2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    // border: 1px black solid;
+    justify-content: center;
+}
+.contacts-div{
+    width: 50%;
+    height: 500px;
+    border: 1px red solid;
+    display: flex;
+    align-items: flex-start;
+    
+}
+.location-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50px;
+    border: 1px green solid;
+    flex-direction: row;
+   
+}
+.location-icon{
+    
+    position: relative;
+    font-size: 20px;
+    left: 50px;
+}
+.message-div{
+    width: 50%;
+    height: 500px;
+    border: 1px green solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.adress-div{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px green solid;
+   
+    
+    
+    p{
+    text-decoration: double;
+    font-size: 15px;
+    line-height: 15px;
+    color:black;
+    }
+}
+.phone-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50px;
+}
+.phone-icon{
+    position: relative;
+    font-size: 20px;
+    left: 50px;
+}
+.phone-text{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+    
+    
+    p{
+    text-decoration: double;
+    font-size: 15px;
+    line-height: 15px;
+    color:black;
+    }
+}
+
+.call_button {
+    height:100%;
+    width:100%;
+    font-size:16px;
+    color:white;
+    justify-content:start;
+    border-radius:10px;
+    background:red;
+    transition: 0.5s;
+    outline: 0;
+    border: 0;
+    position: relative;
+    cursor:pointer;
+  }

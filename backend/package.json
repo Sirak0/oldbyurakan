@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon --require dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^4.0.1",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15",
+    "normalize-port": "^1.0.0",
+    "tslib": "^2.3.1"
+  }
+}

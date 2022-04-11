@@ -1,0 +1,102 @@
+@media screen and (max-width:1000px){
+    .section5{
+        
+        width: 100%;
+        height: 600px;
+    }
+    .section5-content1{
+        width: 100%;
+        height: 300px;
+    }
+    .section5-content2{
+        width: 100%;
+        height: 200px;
+    }
+    .room-img{
+    
+        width: 100%;
+        height: 200px;
+        position:relative;
+        top: 0;
+        left: 0;
+        
+        
+    
+    
+}
+
+}
+@media screen and (max-width:650px){
+    .section5{
+       width: 100%;
+       height: 2000px;
+       flex-direction: column;
+       align-items: center;
+       overflow: hidden;
+       
+    }
+    .section5-content1{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        
+    }
+    .section5-content2{
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        
+
+    }
+    
+    .room-div{
+        width: 100%;
+        height: 1500px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        cursor: pointer;
+        
+        &:hover{
+            -webkit-box-shadow:none; 
+             box-shadow: none;
+        filter: none;
+        }
+        &:hover h4{
+            color: black;
+        }
+        &:hover .next-icon{
+            display: none;
+            
+        }
+            
+        
+}
+    .room-img{
+    
+        width: 100%;
+        height: 350px;
+        position:relative;
+        top: 0;
+        left: 0;
+}
+.room-div h4{
+    position: absolute;
+    color: black;
+    font-size: 17px;
+    display: flex;
+    
+    
+ }
+ .next-icon{
+    display: none;
+}
+    
+}

@@ -1,0 +1,49 @@
+.footer-content{
+    width: 100%;
+    height: 200px;
+    //border: 1px red solid;
+    background: black;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+.social-media{
+width: 90%;
+height: 120px;
+border-top: 2px white dashed;
+border-bottom: 2px white dashed;
+display: flex;
+align-items: center;
+justify-content:center;
+
+
+
+}
+.social-media i{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    
+    border: 1px rgba(255, 255, 255, 0.2) solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    
+
+	&:hover {
+		
+        filter: brightness(30%);
+
+		
+	}
+}
+.copyright{
+    color: white;
+}

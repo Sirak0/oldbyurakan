@@ -1,0 +1,58 @@
+.section4{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.map{
+    width: 50%;
+    height: 100%;
+    //border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-map{
+    width: auto;
+    height: auto;
+    border: none;
+}
+.footer-contacts{
+    width: 50%;
+    height: 100%;
+    //border: 1px green solid;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+   
+    
+}
+.footer-contacts h3{
+    font-size: 22px;
+}
+.footer-contacts a{
+    
+    cursor: pointer;
+    
+    color: chartreuse;
+   
+    border-radius: 3px;
+   
+	&:hover {
+		color: white;
+		transition: all ;
+        
+
+		
+	}
+
+}
