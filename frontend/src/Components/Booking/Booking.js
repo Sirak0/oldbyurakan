@@ -135,11 +135,11 @@ function Booking() {
                    </label>
                    <br></br>
                    <div style={{display:"flex"}}>
-                   <label htmlFor={"date"} style={{marginRight:"35px"}}>Ժամանման Ամսաթիվ <br></br>
+                   <label htmlFor={"date"} style={{marginRight:"35px"}}>Ժամանում <br></br>
                     <input className="book-input-date" name="arrival" type="date" id="date"></input>
                     </label>
                     <br></br>
-                    <label htmlFor={"date"}>Ժամանման Ամսաթիվ <br></br>
+                    <label htmlFor={"date"}>Մեկնում<br></br>
                     <input className="book-input-date" name="leave" type="date" id="date"></input>
                     </label>
                    </div>
@@ -164,9 +164,6 @@ function Booking() {
                    </select>
                    </label>
                    <br></br>
-                   <label htmlFor={"notes"}>Նշումներ<br></br>
-                   <textarea name="notes" className="book-input textarea" id="notes"></textarea>
-                   </label>
                    </form>
                    <p style={{color}}>{status}</p>
                    <button className="book-button2" ref={button1} onClick={count}>Հաշվել արժեքը</button>

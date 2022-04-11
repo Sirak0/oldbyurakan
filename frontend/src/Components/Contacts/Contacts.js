@@ -19,10 +19,7 @@ function Contacts() {
 
             </div>
             <div className="contacts-content2">
-              <button className="call-button">
-                  <AiOutlineWhatsApp />
-                  <p>Զանգ Վիբեռ-ին</p>
-              </button>
+              
             </div>
         </div>
     )

@@ -22,8 +22,10 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-simple-image-slider": "^2.3.0",
+    "react-slick": "^0.28.1",
     "redux": "^4.1.2",
     "sass": "^1.49.7",
+    "slick-carousel": "^1.8.1",
     "swiper": "^8.0.6",
     "web-vitals": "^2.1.4"
   },

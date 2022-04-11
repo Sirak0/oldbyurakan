@@ -4,6 +4,9 @@ import BackgroundImage from "../../Images/backgroundimage.jpeg";
 import Sliderimg from "../../Images/sliderImg.jpeg";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 
@@ -15,54 +18,39 @@ function Section1() {
     const [top,setTop] = useState("-200px")
     const [trans,setTrans] = useState(0)
     const [color,setColor] = useState("green")
-   
-    function change(index,item){
-        setTrans("0s")
-         setTop("-700px")
-         setTimeout(() => {
-            setTrans("2s")
-            setTop("-500px")
-         },150)
-      
-    }
-
-    useEffect(() => {
-        setTrans("0s")
-        setTop("-700px")
-        setTimeout(() => {
-           setTrans("2s")
-           setTop("-500px")
-        },150)
-
-        setInterval(() => {
-          setColor("green")
-          setTimeout(() => {
-             setColor("red")
-          },2000)
-          setTimeout(() => {
-             setColor("brown")
-          },4000)
-        }, 6000)
-    }, [])
+    const settings = {
+    
+        infinite: true,
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        initialSlide: 1,
+        arrows: true,
+        dots: true,
+        autoplay: true,
+         speed: 1000,
+         autoplaySpeed: 3000,
+       
+        
+      };
     return (
 
 
         <section className="section1">
             
     
-            <Carousel onChange={change} autoPlay={true} stopOnHover={false} showIndicators={false} interval={3500}  infiniteLoop={true} showArrows={true} style={{display:"flex"}} showStatus={false} showThumbs={false} >
+            <Slider {...settings}>
                 <div className="slide1-item">
                 <img  className="image" src={BackgroundImage} alt="oldbyurakan" />
-                <p className="legend" style={{top,transition:trans,color}} >Անց կացրեք լավագույն հանգիստ մեր հյուրատանը</p>
+              
                     
                 </div>
                 
                 <div className="slide1-item">
                     <img className="image" src={Sliderimg} alt="oldbyurakan"  />
-                    <p className="legend" style={{top,color,transition:trans}} >Վայելեք Բյուրականի բնության զովացուցիչ հանգստությունը</p>
+                    
                 </div>
-                
-            </Carousel>
+                </Slider>
+            
                     
                     
                     
